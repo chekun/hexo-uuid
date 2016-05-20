@@ -1,6 +1,6 @@
 {
   "name": "hexo-uuid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Give your post an uuid!",
   "main": "index",
   "scripts": {
@@ -8,6 +8,9 @@
     "jscs": "node_modules/.bin/jscs .",
     "test": "node_modules/.bin/mocha tests/index.js",
     "test-cover": "node_modules/.bin/istanbul cover --print both node_modules/.bin/_mocha -- tests/index.js"
+  },
+  "directories": {
+    "lib": "./lib"
   },
   "repository": "chekun/hexo-uuid",
   "homepage": "https://chekun.me/post/hexo-uuid",
