@@ -1,0 +1,33 @@
+{
+  "name": "hexo-uuid",
+  "version": "1.0.0",
+  "description": "Give your post an uuid!",
+  "main": "index",
+  "scripts": {
+    "eslint": "node_modules/.bin/eslint .",
+    "jscs": "node_modules/.bin/jscs .",
+    "test": "node_modules/.bin/mocha tests/index.js",
+    "test-cover": "node_modules/.bin/istanbul cover --print both node_modules/.bin/_mocha -- tests/index.js"
+  },
+  "repository": "chekun/hexo-uuid",
+  "homepage": "https://chekun.me/post/hexo-uuid",
+  "keywords": [
+    "hexo",
+    "uuid"
+  ],
+  "author": "Kun Che <mr.che.kun@gmail.com> (https://chekun.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "eslint": "^2.7.0",
+    "eslint-config-hexo": "^1.0.2",
+    "hexo": "^3.1.1",
+    "istanbul": "^0.4.1",
+    "jscs": "^2.6.0",
+    "jscs-preset-hexo": "^1.0.1",
+    "mocha": "^2.3.4"
+  }
+}
