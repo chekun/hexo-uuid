@@ -12,7 +12,10 @@
   "directories": {
     "lib": "./lib"
   },
-  "repository": "chekun/hexo-uuid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chekun/hexo-uuid"
+  },
   "homepage": "https://chekun.me/post/hexo-uuid",
   "keywords": [
     "hexo",
